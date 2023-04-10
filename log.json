@@ -1,0 +1,17 @@
+{
+    "TimeFormat": "2006-01-02 15:04:05.000",
+    "Console"   : {          
+        "level": "DEBG",
+        "color": true
+    },
+    "File": {                   
+        "filename": "D:/Go_Work/src/WowjoyProject/AutoDataMigration/log/log.log",
+        "level"   : "DEBG",
+        "daily"   : false,
+        "maxlines": 200000,
+        "maxsize" : 40,
+        "maxdays" : 7,
+        "append"  : true,
+        "permit"  : "0660"
+    }
+}
